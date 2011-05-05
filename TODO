@@ -1,0 +1,21 @@
+
+=========================
+SQLite3Façade for Harbour
+=========================
+
+TO DO List
+==========
+
+In order of importance, I guess.
+
+* Actual make files references hardcoded windows paths. It's evil, I know.
+  
+* Build scripts are based (only) on windows batch files. It's evil too.
+
+* There's no way to extract source code documentation. It's based on a 
+  proprietary documentation tool that, in turn, is based on Java Doc.
+  
+* A gentle introduction guide will be appreciated.
+
+* My english need some, say, polishing (actually it's horrible).
+
