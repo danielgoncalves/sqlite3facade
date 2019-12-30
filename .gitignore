@@ -1,20 +1,18 @@
-syntax: glob
-
 # ignore compiler|linker|lib generated files
-**.exe
-**.a
-**.o
+*.exe
+*.a
+*.o
 
 # ignore folders "build" and "dist" folders
-build/**
-dist/**
+/build/
+/dist/
 
 # ignore test files
-src/test/**.exe
-src/test/**.ppo
-src/test/**.db
-src/test/**.o
-src/test/**.c
+src/test/*.exe
+src/test/*.ppo
+src/test/*.db
+src/test/*.o
+src/test/*.c
 src/test/RESULTS.FAILED
 src/test/RESULTS.PASSED
 
